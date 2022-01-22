@@ -1,0 +1,10 @@
+[ScmPair
+  (ScmChar 'A',
+   ScmPair
+    (ScmNumber (ScmReal 123456.234),
+     ScmPair
+      (ScmNumber (ScmRational (555, 1)),
+       ScmPair (ScmString "test", ScmBoolean true))))]
+
+       (equal? '((#\newline #\page #\return #\space #\tab #\newLINe #\paGE #\retURN #\spACE #\TaB)) 
+               '((#\newline #\page #\return #\space #\tab #\n ewLINe #\p aGE #\r etURN #\s pACE #\T aB))))
